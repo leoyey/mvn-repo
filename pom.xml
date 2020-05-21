@@ -2,26 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.taobao</groupId>
-  <artifactId>taobao-sdk</artifactId>
+  <groupId>mvn-repo</groupId>
+  <artifactId>mvn-repo</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>taobao-sdk</name>
+  <name>mvn-repo</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!--maven variable which points to your local repository -->
-    <internal.repo.path>file:///Users/leoye/MacDev/Code/taobao-sdk/</internal.repo.path>
   </properties>
-
-  <distributionManagement>
-  <repository>
-    <id>internal.repo</id>
-    <name>Internal Repository</name>
-    <url>/Users/leoye/MacDev/Code/taobao-sdk/</url>
-  </repository>
-</distributionManagement>
 
 </project>
